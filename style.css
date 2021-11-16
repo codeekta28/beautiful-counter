@@ -1,0 +1,70 @@
+body{
+  height: 100vh;
+  overflow: hidden;
+  background: hsla(265, 53%, 29%, 1);
+
+  background: linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(265, 53%, 29%, 1) 0%, hsla(24, 93%, 73%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#432371", endColorstr="#FAAE7B", GradientType=1 );
+}
+.container-fluid{
+  height: 100vh;
+
+}
+.container{
+  
+  width:30%;
+  max-width: 100%;
+  height: 70vh;
+  box-shadow: rgb(198, 205, 216) 0px 20px 30px -10px;
+  background: hsla(192, 80%, 51%, 1);
+
+  background: linear-gradient(90deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(192, 80%, 51%, 1) 0%, hsla(355, 85%, 63%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1DBDE6", endColorstr="#F1515E", GradientType=1 );
+}
+#count{
+  font-size: 20rem;
+  color: white;
+}
+.btn{
+  width: 80%;
+  background: hsla(175, 79%, 63%, 1);
+
+  background: linear-gradient(90deg, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(175, 79%, 63%, 1) 0%, hsla(82, 96%, 57%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#57EBDE", endColorstr="#AEFB2A", GradientType=1 );
+  color: black;
+}
+.btn:hover{
+  cursor: pointer;
+  border-color: #f1ff5c;
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+  transform: translateY(-0.2em);
+}
+
+@media (max-width:1300px) {
+  body {
+      color: yellow;
+  }
+  .container{
+    width: auto;
+    height: auto;
+  }
+  #count{
+    font-size: 12rem;
+  }
+}
